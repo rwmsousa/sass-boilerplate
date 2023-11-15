@@ -1,0 +1,44 @@
+// _themes/_default.scss
+
+// Importar variáveis, funções e mixins
+@import '../abstracts/variables';
+@import '../abstracts/functions';
+@import '../abstracts/mixins';
+
+// Importar estilos base
+@import '../base/base';
+@import '../base/fonts';
+@import '../base/colors';
+@import '../base/typography';
+@import '../base/helpers';
+@import '../base/mixins';
+@import '../base/variables';
+@import '../base/reset';
+
+// Importar estilos de layout
+@import '../layout/navigation';
+@import '../layout/grid';
+@import '../layout/header';
+@import '../layout/footer';
+@import '../layout/sidebar';
+
+// Importar estilos de componentes
+@import '../components/buttons';
+@import '../components/forms';
+@import '../components/carousel';
+@import '../components/cover';
+@import '../components/dropdown';
+
+// Importar estilos de páginas
+@import '../pages/home';
+@import '../pages/about';
+@import '../pages/contact';
+@import '../pages/slugPost';
+
+// Estilos do tema
+// (pode incluir substituição de variáveis e ajustes específicos do tema)
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #F0F0F0;
+  color: #333;
+}
