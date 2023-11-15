@@ -1,0 +1,27 @@
+// Botões
+.button {
+  display: inline-block;
+  padding: 0.625rem 1.25rem; // 10px 20px
+  font-size: 1rem; // 16px
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: 0.0625rem solid transparent; // 1px
+  border-radius: 0.25rem; // 4px
+  transition: all 0.3s ease;
+}
+
+.button.primary {
+  background-color: #D1703D;
+  color: #fff;
+}
+
+.button.secondary {
+  background-color: #3C3C3C;
+  color: #fff;
+}
+
+.button:hover {
+  opacity: 0.8;
+  background-color: #0056b3;
+}
