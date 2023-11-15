@@ -1,3 +1,5 @@
+@import '../base/colors';
+
 // Botões
 .button {
   display: inline-block;
@@ -12,16 +14,16 @@
 }
 
 .button.primary {
-  background-color: #D1703D;
+  background-color: $cor-botao;
   color: #fff;
 }
 
 .button.secondary {
-  background-color: #3C3C3C;
-  color: #fff;
+  background-color: $cor-destaque;
+  color: $cor-texto;
 }
 
 .button:hover {
   opacity: 0.8;
-  background-color: #0056b3;
+  background-color: darken($cor-botao, 15%);
 }
