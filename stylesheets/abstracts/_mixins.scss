@@ -1,5 +1,5 @@
 // Mixin para centralizar um elemento
-@import 'base/colors';
+@import '../base/_colors';
 
 @mixin centralizar() {
   position: absolute;

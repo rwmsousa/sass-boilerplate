@@ -1,39 +1,38 @@
-// _themes/_default.scss
+// _themes/_admin.scss
 
 // Importar variáveis, funções e mixins
-@import '../abstracts/variables';
-@import '../abstracts/functions';
-@import '../abstracts/mixins';
+// @import '../abstracts/variables';
+// @import '../abstracts/functions';
+@import '../abstracts/_mixins';
 
 // Importar estilos base
-@import '../base/base';
-@import '../base/fonts';
-@import '../base/colors';
-@import '../base/typography';
-@import '../base/helpers';
-@import '../base/mixins';
-@import '../base/variables';
-@import '../base/reset';
-
-// Importar estilos de layout
-@import '../layout/navigation';
-@import '../layout/grid';
-@import '../layout/header';
-@import '../layout/footer';
-@import '../layout/sidebar';
+@import '../base/_breakpoints';
+@import '../base/_colors';
+@import '../base/_effects';
+@import '../base/_fonts';
+@import '../base/_helpers';
+@import '../base/_reset';
+@import '../base/_spacings';
+@import '../base/_zindex';
 
 // Importar estilos de componentes
-@import '../components/buttons';
-@import '../components/forms';
-@import '../components/carousel';
-@import '../components/cover';
-@import '../components/dropdown';
+@import '../components/_button';
+@import '../components/_carousel';
+@import '../components/_cover';
+@import '../components/_dropdown';
+@import '../components/_form';
+
+// Importar estilos de layout
+@import '../layout/_footer';
+@import '../layout/_grid';
+@import '../layout/_header';
+@import '../layout/_sidebar';
 
 // Importar estilos de páginas
-@import '../pages/home';
-@import '../pages/about';
-@import '../pages/contact';
-@import '../pages/slugPost';
+@import '../pages/_home';
+@import '../pages/_about';
+@import '../pages/_contact';
+@import '../pages/_slug';
 
 // Estilos do tema
 // (pode incluir substituição de variáveis e ajustes específicos do tema)

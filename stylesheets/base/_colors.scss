@@ -1,8 +1,17 @@
 /* Cores */
-$cor-fundo: #f4f4f4;
-$cor-texto: #333;
-$cor-link: #007bff;
-$cor-link-hover: darken($cor-link, 15%);
-$cor-titulo: #333;
-$cor-destaque: #ff6347;
+$cor-fundo: #f9efd4; // Cor de fundo suave para facilitar a leitura
+$cor-texto: #525252; // Cor de texto escura para contraste
+$cor-link: #806ecf; // Cor de link para destaque
+$cor-titulo: #525252; // Cor de título para destaque
+$cor-destaque: #a194dd; // Cor de destaque para elementos importantes
+$cor-botao: #5f49c1; // Cor de botão para consistência com os links
+$cor-icone: #5f49c1; // Cor de ícone para consistência com os títulos
+$cor-header: #a194dd; // Cor do cabeçalho para destaque
+$cor-footer: darken($cor-header, 15%); // Cor do rodapé um pouco mais escura
 /* ... outras variáveis de cores */
+
+$color-1: #525252;
+$color-2: #6c6c6c;
+$color-3: #5f49c1;
+$color-4: #806ecf;
+$color-5: #a194dd;
