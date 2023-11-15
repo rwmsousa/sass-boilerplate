@@ -1,0 +1,29 @@
+// styles for specific elements or sections on the home page
+
+.home-title {
+  font-size: 2em;
+  color: #3C3C3C;
+}
+
+.home-description {
+  font-size: 1.2em;
+  color: #666;
+}
+
+.featured-posts {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.25rem; // 20px
+}
+
+.featured-post {
+  width: 30%;
+  border: 0.0625rem solid #ccc; // 1px
+  padding: 0.625rem; // 10px
+  margin-bottom: 1.25rem; // 20px
+}
+
+.featured-post h2 {
+  font-size: 1.4em;
+  color: #3C3C3C;
+}
