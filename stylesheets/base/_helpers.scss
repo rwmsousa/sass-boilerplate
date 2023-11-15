@@ -1,0 +1,61 @@
+/* Limpar floats */
+.clearfix::after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+/**
+  * Principais contêineres de conteúdo
+  * 1. Faça o contêiner com largura total e largura máxima
+  * 2. Centralize-o na janela de visualização
+  * 3. Deixe algum espaço nas bordas, especialmente valioso em telas pequenas
+  */
+.container {
+  max-width: $max-width;
+  /* 1 */
+  margin-left: auto;
+  /* 2 */
+  margin-right: auto;
+  /* 2 */
+  padding-left: 1.25rem;
+  /* 3 - 20px */
+  padding-right: 1.25rem;
+  /* 3 - 20px */
+  width: 100%;
+  /* 1 */
+}
+
+/**
+ * Ocultar texto enquanto o torna legível para leitores de tela
+ * 1. Necessário em navegadores baseados em WebKit por causa de um bug de implementação;
+ *    Veja: https://code.google.com/p/chromium/issues/detail?id=457146
+ */
+.hide-text {
+  overflow: hidden;
+  padding: 0;
+  /* 1 */
+  text-indent: 101%;
+  white-space: nowrap;
+}
+
+/**
+  * Oculta o elemento enquanto o torna legível para leitores de tela
+  * https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css#L119-L133
+  */
+.visually-hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 0.0625rem; // 1px
+  margin: -0.0625rem; // -1px
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 0.0625rem; // 1px
+}
+
+/* Exibição em tela inteira */
+.full-screen {
+  width: 100vw;
+  height: 100vh;
+}

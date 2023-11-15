@@ -1,0 +1,47 @@
+/* Reset CSS */
+/* Estilos zerados para uma base consistente em diferentes navegadores */
+
+/* Definição de reset para elementos de bloco */
+body,
+div,
+section,
+article,
+header,
+footer,
+nav,
+aside,
+main {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* Zerar listas */
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Zerar estilos padrão de links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Zerar configurações padrão de títulos */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font-weight: normal;
+}
