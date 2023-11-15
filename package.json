@@ -1,0 +1,27 @@
+{
+  "name": "sass-boilerplate",
+  "version": "1.0.0",
+  "description": "Template de arquitetura 7-1 Sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/rwmsousa/sass-boilerplate.git"
+  },
+  "keywords": [
+    "sass",
+    "template",
+    "frontend"
+  ],
+  "author": "github.com/rwmsousa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rwmsousa/sass-boilerplate/issues"
+  },
+  "homepage": "https://github.com/rwmsousa/sass-boilerplate#readme",
+  "dependencies": {
+    "sass": "^1.69.5"
+  }
+}
