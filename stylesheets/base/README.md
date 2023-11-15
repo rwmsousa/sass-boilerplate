@@ -105,14 +105,14 @@ Agora, é hora de convocar esses poderes mágicos para o seu projeto! Adicione o
 
 ```scss
 // Importe os feitiços mágicos da pasta "base"
-@import 'base/breakpoints';
-@import 'base/colors';
-@import 'base/effects';
-@import 'base/fonts';
-@import 'base/helpers';
-@import 'base/reset';
-@import 'base/spacings';
-@import 'base/zindex';
+@import 'base/_breakpoints';
+@import 'base/_colors';
+@import 'base/_effects';
+@import 'base/_fonts';
+@import 'base/_helpers';
+@import 'base/_reset';
+@import 'base/_spacings';
+@import 'base/_zindex';
 
 // Agora, deixe a mágica começar! ✨🚀
 ```
