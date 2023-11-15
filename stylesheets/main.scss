@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+// 1. Functions/Mixins
+@import 'abstracts/_mixins';
+
+// 2. Base
+@import 'base/_breakpoints',
+'base/_colors',
+'base/_effects',
+'base/_fonts',
+'base/_helpers',
+'base/_reset',
+'base/_spacings',
+'base/_zindex';
+
+// 3. Components
+@import 'components/_button',
+'components/_carousel',
+'components/_cover',
+'components/_dropdown',
+'components/_form';
+
+// 4. Layout
+@import
+'layout/_footer',
+'layout/_grid',
+'layout/_header',
+'layout/_sidebar';
+
+// 5. Page
+@import
+'pages/_about',
+'pages/_contact',
+'pages/_home',
+'pages/_slugPost';
+
+// 6. Themes
+@import
+'themes/_admin',
+'themes/_default';
+
+// 7. Vendors
+@import 'vendors/_bootstrap';
