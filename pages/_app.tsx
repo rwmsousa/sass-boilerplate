@@ -1,7 +1,7 @@
 // pages/_app.tsx
 import React from 'react';
-import '../stylesheets/main.scss';
 import { AppProps } from 'next/app';
+import '../stylesheets/main.scss';
 
 function MyApp({ Component, pageProps }: AppProps) {
   return <Component { ...pageProps } />

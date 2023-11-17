@@ -2,12 +2,6 @@
 import React from 'react';
 import Button from '../components/Button';
 
-interface ButtonProps {
-  text: string;
-  onClick: () => void;
-  className?: string; // make className prop optional
-}
-
 const Home: React.FC = () => {
   const handleClick = (msg:string) => {
     console.log(msg);

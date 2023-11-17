@@ -2,7 +2,7 @@
 
 ## Introdução
 
-Este projeto utiliza Sass, um pré-processador CSS que permite o uso de variáveis, aninhamento, mixins, herança e outras características interessantes que tornam a escrita CSS mais poderosa e flexível. 
+Este projeto utiliza [Sass](https://sass-guidelin.es/), um pré-processador CSS que permite o uso de variáveis, aninhamento, mixins, herança e outras características interessantes que tornam a escrita CSS mais poderosa e flexível. 
 
 O projeto segue a arquitetura 7-1 do Sass, que é uma estrutura para organizar os arquivos Sass em sete pastas e um arquivo principal. Esta estrutura ajuda a manter o código organizado e facilita a manutenção do projeto.
 
