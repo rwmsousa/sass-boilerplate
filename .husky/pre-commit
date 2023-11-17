@@ -1,5 +1,9 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-if [ "$NO_VERIFY" ] || [ "$NO_VERIFY_YOLO" ]; then exit 0; fi
-exec < /dev/tty && node_modules/.bin/cz --hook || true
+# if [ "$NO_VERIFY" ] || [ "$NO_VERIFY_YOLO" ]; then exit 0; fi
+# exec < /dev/tty && node_modules/.bin/cz --hook || true
+
+npm run lint
+npm run prettier
+git add .
