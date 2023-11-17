@@ -64,6 +64,7 @@ Para mais informações sobre os diferentes aspectos do projeto, consulte os seg
 [Vendors](https://github.com/rwmsousa/sass-boilerplate/blob/master/stylesheets/vendors/README.md)
 
 ## Contribuição
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
 Contribuições são sempre bem-vindas! Se você tem uma melhoria ou correção, sinta-se à vontade para fazer um fork do repositório e enviar um pull request. Se você tem alguma dúvida ou sugestão, pode abrir uma issue.
 
