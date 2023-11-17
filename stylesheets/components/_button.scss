@@ -2,28 +2,28 @@
 
 // Botões
 .button {
-  display: inline-block;
-  padding: 0.625rem 1.25rem; // 10px 20px
-  font-size: 1rem; // 16px
-  text-align: center;
-  text-decoration: none;
-  cursor: pointer;
-  border: 0.0625rem solid transparent; // 1px
-  border-radius: 0.25rem; // 4px
-  transition: all 0.3s ease;
+    display: inline-block;
+    padding: 0.625rem 1.25rem; // 10px 20px
+    font-size: 1rem; // 16px
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 0.0625rem solid transparent; // 1px
+    border-radius: 0.25rem; // 4px
+    transition: all 0.3s ease;
 }
 
 .button.primary {
-  background-color: $cor-botao;
-  color: #fff;
+    background-color: $cor-botao;
+    color: #fff;
 }
 
 .button.secondary {
-  background-color: $cor-destaque;
-  color: $cor-texto;
+    background-color: $cor-destaque;
+    color: $cor-texto;
 }
 
 .button:hover {
-  opacity: 0.8;
-  background-color: darken($cor-botao, 15%);
+    opacity: 0.8;
+    background-color: darken($cor-botao, 15%);
 }

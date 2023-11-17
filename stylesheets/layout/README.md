@@ -4,13 +4,13 @@ Bem-vindo à Sala do Trono da pasta "layout"! Aqui, os elementos se alinham para
 
 ## O que são esses elementos mágicos?
 
-- **\_footer.scss**: A fundação que sustenta seu reino, mantendo tudo em equilíbrio. 🦶🏽🏰
+-   **\_footer.scss**: A fundação que sustenta seu reino, mantendo tudo em equilíbrio. 🦶🏽🏰
 
-- **\_grid.scss**: A grade encantada que organiza os elementos do seu projeto, garantindo uma disposição perfeita. 📏📐
+-   **\_grid.scss**: A grade encantada que organiza os elementos do seu projeto, garantindo uma disposição perfeita. 📏📐
 
-- **\_header.scss**: A coroa brilhante do seu projeto, onde a realeza das informações é exibida. 👑📜
+-   **\_header.scss**: A coroa brilhante do seu projeto, onde a realeza das informações é exibida. 👑📜
 
-- **\_sidebar.scss**: O confidente leal, oferecendo informações adicionais e mantendo o equilíbrio do reino. 🤝📖
+-   **\_sidebar.scss**: O confidente leal, oferecendo informações adicionais e mantendo o equilíbrio do reino. 🤝📖
 
 ## Como Usar Esses Poderes?
 
@@ -21,8 +21,8 @@ Personalize esses elementos mágicos para criar um reino visual que conte a hist
 ```scss
 // Estilize o alicerce do seu reino
 .kingdom-footer {
-  background-color: #f8f9fa; // Escolha uma cor sólida
-  padding: 20px; // Adicione espaço para sustentar o reino
+    background-color: #f8f9fa; // Escolha uma cor sólida
+    padding: 20px; // Adicione espaço para sustentar o reino
 }
 ```
 
@@ -31,9 +31,12 @@ Personalize esses elementos mágicos para criar um reino visual que conte a hist
 ```scss
 // Utilize a grade mágica para organizar seu reino
 .kingdom-content {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); // Divida o reino em três partes iguais
-  gap: 20px; // Adicione espaçamento entre os elementos
+    display: grid;
+    grid-template-columns: repeat(
+        3,
+        1fr
+    ); // Divida o reino em três partes iguais
+    gap: 20px; // Adicione espaçamento entre os elementos
 }
 ```
 
@@ -42,8 +45,8 @@ Personalize esses elementos mágicos para criar um reino visual que conte a hist
 ```scss
 // Dê brilho à coroa do seu projeto
 .kingdom-header {
-  font-size: 2em; // Aumente o tamanho para um toque majestoso
-  color: #3498db; // Escolha uma cor real
+    font-size: 2em; // Aumente o tamanho para um toque majestoso
+    color: #3498db; // Escolha uma cor real
 }
 ```
 
@@ -52,8 +55,8 @@ Personalize esses elementos mágicos para criar um reino visual que conte a hist
 ```scss
 // Confie no confidente leal para fornecer informações adicionais
 .kingdom-sidebar {
-  width: 25%; // Ajuste a largura para equilibrar o reino
-  background-color: #ecf0f1; // Escolha uma cor complementar
+    width: 25%; // Ajuste a largura para equilibrar o reino
+    background-color: #ecf0f1; // Escolha uma cor complementar
 }
 ```
 

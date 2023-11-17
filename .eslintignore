@@ -1,0 +1,17 @@
+**/node_modules/*
+**/.next/*
+**/.husky/*
+**/.vscode/*
+# build artefacts
+dist/*
+build/*
+coverage/*
+
+# data definition files
+**/*.d.ts
+
+# 3rd party libs
+/public/
+
+# custom definition files
+/types/
