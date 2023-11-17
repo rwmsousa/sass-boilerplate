@@ -6,13 +6,13 @@ Bem-vindo à pasta "abstracts"! 🚀 Aqui, estamos prestes a explorar o mundo m�
 
 Os arquivos nesta pasta são como poções mágicas para seus estilos. Eles armazenam coisas incríveis como variáveis, funções, mixins e placeholders. Mas, espere, o que são essas coisas?
 
-- **Variáveis**: Guardam valores mágicos como cores e tamanhos, para que você possa mudar a aparência do seu site num piscar de olhos. 🎨
+-   **Variáveis**: Guardam valores mágicos como cores e tamanhos, para que você possa mudar a aparência do seu site num piscar de olhos. 🎨
 
-- **Funções**: Transformam valores e realizam feitiços matemáticos para criar estilos dinâmicos. 🧙
+-   **Funções**: Transformam valores e realizam feitiços matemáticos para criar estilos dinâmicos. 🧙
 
-- **Mixins**: São como receitas de bolo mágicas que você pode reutilizar para criar estilos consistentes e evitar repetição. 🍰
+-   **Mixins**: São como receitas de bolo mágicas que você pode reutilizar para criar estilos consistentes e evitar repetição. 🍰
 
-- **Placeholders**: São como feitiços que podem ser invocados quando necessário, economizando espaço e mantendo seu código limpo. 🧹
+-   **Placeholders**: São como feitiços que podem ser invocados quando necessário, economizando espaço e mantendo seu código limpo. 🧹
 
 ## Como Usar?
 
@@ -32,7 +32,7 @@ $font-family: 'Roboto', sans-serif;
 ```scss
 // Use funções para criar estilos dinâmicos
 @function em($pixels) {
-  @return $pixels / 16 + 0.25em; // Converte pixels para em
+    @return $pixels / 16 + 0.25em; // Converte pixels para em
 }
 ```
 
@@ -41,9 +41,9 @@ $font-family: 'Roboto', sans-serif;
 ```scss
 // Crie mixins para estilos reutilizáveis
 @mixin button-styles {
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
 }
 ```
 
@@ -52,9 +52,9 @@ $font-family: 'Roboto', sans-serif;
 ```scss
 // Defina placeholders para serem usados quando necessário
 %flex-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 ```
 

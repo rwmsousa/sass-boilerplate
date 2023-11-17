@@ -4,15 +4,15 @@ Bem-vindo à Central de Magias da pasta "components"! Aqui é onde os elementos 
 
 ## O que são esses componentes mágicos?
 
-- **\_button.scss**: Crie botões que vão desde os mais simples até os mais intrincados, todos com o toque de um feitiço! 🪄🔘
+-   **\_button.scss**: Crie botões que vão desde os mais simples até os mais intrincados, todos com o toque de um feitiço! 🪄🔘
 
-- **\_carousel.scss**: Um portal mágico que transforma suas imagens em uma exibição encantadora. 🎠🌌
+-   **\_carousel.scss**: Um portal mágico que transforma suas imagens em uma exibição encantadora. 🎠🌌
 
-- **\_cover.scss**: Dê ao seu conteúdo um manto elegante com este componente de cobertura. ✨🧥
+-   **\_cover.scss**: Dê ao seu conteúdo um manto elegante com este componente de cobertura. ✨🧥
 
-- **\_dropdown.scss**: Uma lista mágica que se desdobra para revelar opções incríveis. 🪙🌐
+-   **\_dropdown.scss**: Uma lista mágica que se desdobra para revelar opções incríveis. 🪙🌐
 
-- **\_form.scss**: Transforme seus campos de formulário em pergaminhos de entrada elegantes. 📜🔍
+-   **\_form.scss**: Transforme seus campos de formulário em pergaminhos de entrada elegantes. 📜🔍
 
 ## Como Usar Essas Magias?
 
@@ -23,8 +23,8 @@ Bem-vindo à Central de Magias da pasta "components"! Aqui é onde os elementos 
 ```scss
 // Personalize os estilos do seu botão mágico
 .magic-button {
-  @include button-styles; // Reutilize os estilos básicos
-  background-color: #ff5722; // Adicione sua cor mágica
+    @include button-styles; // Reutilize os estilos básicos
+    background-color: #ff5722; // Adicione sua cor mágica
 }
 ```
 
@@ -33,9 +33,9 @@ Bem-vindo à Central de Magias da pasta "components"! Aqui é onde os elementos 
 ```scss
 // Estilize seu carrossel encantado
 .carousel {
-  .carousel-item {
-    opacity: 0.8; // Adicione um toque de mistério
-  }
+    .carousel-item {
+        opacity: 0.8; // Adicione um toque de mistério
+    }
 }
 ```
 
@@ -44,9 +44,9 @@ Bem-vindo à Central de Magias da pasta "components"! Aqui é onde os elementos 
 ```scss
 // Personalize o manto mágico para seu conteúdo
 .magic-cover {
-  background-image: url('path/to/magical-image.jpg');
-  background-size: cover;
-  color: #ffffff; // Faça seu texto brilhar
+    background-image: url('path/to/magical-image.jpg');
+    background-size: cover;
+    color: #ffffff; // Faça seu texto brilhar
 }
 ```
 
@@ -55,10 +55,10 @@ Bem-vindo à Central de Magias da pasta "components"! Aqui é onde os elementos 
 ```scss
 // Transforme sua lista em uma experiência mágica
 .magic-dropdown {
-  @include transition(all 0.3s ease-in-out); // Adicione um toque de suavidade
-  &:hover {
-    transform: translateY(-5px); // Levite com elegância
-  }
+    @include transition(all 0.3s ease-in-out); // Adicione um toque de suavidade
+    &:hover {
+        transform: translateY(-5px); // Levite com elegância
+    }
 }
 ```
 
@@ -67,10 +67,10 @@ Bem-vindo à Central de Magias da pasta "components"! Aqui é onde os elementos 
 ```scss
 // Faça seus campos de formulário brilharem
 .magic-input {
-  border: 2px solid #3498db; // Adicione uma borda encantada
-  &:focus {
-    box-shadow: 0 0 10px rgba(52, 152, 219, 0.7); // Aumente o brilho ao focar
-  }
+    border: 2px solid #3498db; // Adicione uma borda encantada
+    &:focus {
+        box-shadow: 0 0 10px rgba(52, 152, 219, 0.7); // Aumente o brilho ao focar
+    }
 }
 ```
 

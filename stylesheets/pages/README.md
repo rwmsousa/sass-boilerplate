@@ -4,13 +4,13 @@ Bem-vindo à Biblioteca Mágica da pasta "pages"! Aqui, cada página do seu livr
 
 ## O que são esses feitiços mágicos?
 
-- **\_about.scss**: O capítulo que conta a história do seu projeto, dando aos visitantes uma visão íntima do que você é. 📜🔮
+-   **\_about.scss**: O capítulo que conta a história do seu projeto, dando aos visitantes uma visão íntima do que você é. 📜🔮
 
-- **\_contact.scss**: A página de comunicação, onde os visitantes podem enviar suas corujas mágicas ou, mais realisticamente, suas mensagens. 💌🦉
+-   **\_contact.scss**: A página de comunicação, onde os visitantes podem enviar suas corujas mágicas ou, mais realisticamente, suas mensagens. 💌🦉
 
-- **\_home.scss**: A página principal do seu livro de estilos, onde a jornada mágica começa. ✨🏠
+-   **\_home.scss**: A página principal do seu livro de estilos, onde a jornada mágica começa. ✨🏠
 
-- **\_slug.scss**: A página misteriosa que lida com URLs personalizadas e captura a essência única de cada página. 🐌📌
+-   **\_slug.scss**: A página misteriosa que lida com URLs personalizadas e captura a essência única de cada página. 🐌📌
 
 ## Como Usar Esses Feitiços?
 
@@ -21,8 +21,8 @@ Personalize essas páginas mágicas para contar a história encantadora do seu p
 ```scss
 // Personalize a narrativa do capítulo "Sobre"
 .about-page {
-  font-size: 1.5em; // Escolha um tamanho de fonte que cativa
-  color: #2ecc71; // Adicione uma cor que conte uma história aconchegante
+    font-size: 1.5em; // Escolha um tamanho de fonte que cativa
+    color: #2ecc71; // Adicione uma cor que conte uma história aconchegante
 }
 ```
 
@@ -31,8 +31,8 @@ Personalize essas páginas mágicas para contar a história encantadora do seu p
 ```scss
 // Estilize a página de comunicação
 .contact-page {
-  padding: 40px; // Adicione espaço para os visitantes se expressarem
-  background-color: #3498db; // Escolha uma cor vibrante para incentivar a comunicação
+    padding: 40px; // Adicione espaço para os visitantes se expressarem
+    background-color: #3498db; // Escolha uma cor vibrante para incentivar a comunicação
 }
 ```
 
@@ -41,8 +41,8 @@ Personalize essas páginas mágicas para contar a história encantadora do seu p
 ```scss
 // Deixe a página principal brilhar com o toque de uma varinha
 .home-page {
-  background-image: url('path/to/magical-background.jpg'); // Adicione uma imagem que inicie a jornada
-  color: #ffffff; // Faça o texto brilhar na escuridão
+    background-image: url('path/to/magical-background.jpg'); // Adicione uma imagem que inicie a jornada
+    color: #ffffff; // Faça o texto brilhar na escuridão
 }
 ```
 
@@ -51,8 +51,8 @@ Personalize essas páginas mágicas para contar a história encantadora do seu p
 ```scss
 // Estilize a página misteriosa das URLs personalizadas
 .slug-page {
-  font-style: italic; // Adicione um toque de mistério à fonte
-  color: #8e44ad; // Escolha uma cor única para capturar a essência única de cada URL
+    font-style: italic; // Adicione um toque de mistério à fonte
+    color: #8e44ad; // Escolha uma cor única para capturar a essência única de cada URL
 }
 ```
 

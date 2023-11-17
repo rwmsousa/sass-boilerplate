@@ -9,9 +9,9 @@ $heading-font-weight: bold;
 
 /* Aplicando as fontes ao corpo da página e aos títulos */
 body {
-  font-family: $fonte-sans-serif;
-  line-height: 1.5;
-  background-color: $cor-fundo;
+    font-family: $fonte-sans-serif;
+    line-height: 1.5;
+    background-color: $cor-fundo;
 }
 
 h1,
@@ -20,58 +20,58 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: $font-title;
-  font-weight: bold;
+    font-family: $font-title;
+    font-weight: bold;
 }
 
 /* Estilização de fontes específicas */
 p {
-  font-size: 1rem; // 16px
-  line-height: 1.5;
+    font-size: 1rem; // 16px
+    line-height: 1.5;
 }
 
 a {
-  color: $cor-link;
-  text-decoration: none;
+    color: $cor-link;
+    text-decoration: none;
 
-  &:hover {
-    text-decoration: underline;
-  }
+    &:hover {
+        text-decoration: underline;
+    }
 }
 
 h1 {
-  font-size: 2rem; // 32px
-  color: $cor-titulo;
+    font-size: 2rem; // 32px
+    color: $cor-titulo;
 }
 
 h2 {
-  font-size: 1.75rem; // 28px
-  color: $cor-titulo;
+    font-size: 1.75rem; // 28px
+    color: $cor-titulo;
 }
 
 h3 {
-  font-size: 1.5rem; // 24px
-  color: $cor-texto;
+    font-size: 1.5rem; // 24px
+    color: $cor-texto;
 }
 
 h4 {
-  font-size: 1.25rem; // 20px
-  color: $cor-texto;
+    font-size: 1.25rem; // 20px
+    color: $cor-texto;
 }
 
 h5 {
-  font-size: 1.125rem; // 18px
-  color: $cor-texto;
+    font-size: 1.125rem; // 18px
+    color: $cor-texto;
 }
 
 h6 {
-  font-size: 1rem; // 16px
-  color: $cor-texto;
+    font-size: 1rem; // 16px
+    color: $cor-texto;
 }
 
 ul,
 ol {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }

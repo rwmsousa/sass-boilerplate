@@ -2,45 +2,45 @@
 @import '../base/_colors';
 
 @mixin centralizar() {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 // Mixin para gerar um gradiente
 @mixin gradiente($cor1, $cor2) {
-  background: linear-gradient(to bottom, $cor1, $cor2);
+    background: linear-gradient(to bottom, $cor1, $cor2);
 }
 
 // Mixin para botões
 @mixin botao-estilizado() {
-  display: inline-block;
-  padding: 0.625rem 1.25rem; // 10px 20px
-  background-color: $cor-destaque;
-  color: $cor-fundo;
-  text-decoration: none;
-  border-radius: 0.25rem; // 4px
-  transition: background-color 0.3s ease;
+    display: inline-block;
+    padding: 0.625rem 1.25rem; // 10px 20px
+    background-color: $cor-destaque;
+    color: $cor-fundo;
+    text-decoration: none;
+    border-radius: 0.25rem; // 4px
+    transition: background-color 0.3s ease;
 
-  &:hover {
-    background-color: darken($cor-destaque, 10%);
-  }
+    &:hover {
+        background-color: darken($cor-destaque, 10%);
+    }
 }
 
 // Mixin para adicionar sombra
 @mixin sombra() {
-  box-shadow: 0.125rem 0.125rem 0.25rem 0 rgba(0, 0, 0, 0.1); // 2px 2px 4px 0
+    box-shadow: 0.125rem 0.125rem 0.25rem 0 rgba(0, 0, 0, 0.1); // 2px 2px 4px 0
 }
 
 // Função para gerar cores aleatórias
 @function cor-aleatoria() {
-  @return rgb(random(255), random(255), random(255));
+    @return rgb(random(255), random(255), random(255));
 }
 
 // Mixin para títulos
 @mixin titulo-estilizado() {
-  font-size: 1.5rem; // 24px
-  color: $cor-titulo;
-  font-weight: bold;
+    font-size: 1.5rem; // 24px
+    color: $cor-titulo;
+    font-weight: bold;
 }

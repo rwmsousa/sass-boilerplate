@@ -4,21 +4,21 @@ Bem-vindo ao coração do seu estilo, a pasta "base"! Aqui é onde os elementos 
 
 ## O que são esses arquivos mágicos?
 
-- **\_breakpoints.scss**: Controla a magia de como seu layout se ajusta em diferentes tamanhos de tela. 📱💻
+-   **\_breakpoints.scss**: Controla a magia de como seu layout se ajusta em diferentes tamanhos de tela. 📱💻
 
-- **\_colors.scss**: Aqui estão as poções mágicas que definem as cores do seu projeto. Escolha sabiamente, oh grande Mago das Cores! 🌈
+-   **\_colors.scss**: Aqui estão as poções mágicas que definem as cores do seu projeto. Escolha sabiamente, oh grande Mago das Cores! 🌈
 
-- **\_effects.scss**: Adiciona truques e transições que fazem seus elementos dançarem e brilharem na tela. ✨💃
+-   **\_effects.scss**: Adiciona truques e transições que fazem seus elementos dançarem e brilharem na tela. ✨💃
 
-- **\_fonts.scss**: Invoca os poderes das fontes para dar ao seu texto uma personalidade única. 🖋️📜
+-   **\_fonts.scss**: Invoca os poderes das fontes para dar ao seu texto uma personalidade única. 🖋️📜
 
-- **\_helpers.scss**: São os assistentes leais que ajudam a simplificar e organizar seu código. 🧙‍♂️🤝
+-   **\_helpers.scss**: São os assistentes leais que ajudam a simplificar e organizar seu código. 🧙‍♂️🤝
 
-- **\_reset.scss**: Limpa a bagunça mágica dos estilos padrão dos navegadores para começar com uma tela em branco. 🧹🔮
+-   **\_reset.scss**: Limpa a bagunça mágica dos estilos padrão dos navegadores para começar com uma tela em branco. 🧹🔮
 
-- **\_spacings.scss**: Define as distâncias entre os elementos, proporcionando equilíbrio ao seu reino de estilos. 📏🧰
+-   **\_spacings.scss**: Define as distâncias entre os elementos, proporcionando equilíbrio ao seu reino de estilos. 📏🧰
 
-- **\_zindex.scss**: Classifica seus elementos em camadas, garantindo que cada um tenha seu lugar no palco. 🎭🔍
+-   **\_zindex.scss**: Classifica seus elementos em camadas, garantindo que cada um tenha seu lugar no palco. 🎭🔍
 
 ## Como Usar Esses Poderes?
 
@@ -46,10 +46,10 @@ $desktop: 1024px;
 ```scss
 // Adicione transições e efeitos para dar vida ao seu projeto
 .card {
-  transition: transform 0.3s ease-in-out;
-  &:hover {
-    transform: scale(1.1);
-  }
+    transition: transform 0.3s ease-in-out;
+    &:hover {
+        transform: scale(1.1);
+    }
 }
 ```
 
@@ -66,10 +66,10 @@ $heading-font: 'Montserrat', sans-serif;
 ```scss
 // Use mixins e funções auxiliares para simplificar seu código
 @mixin center-element {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 ```
 
@@ -78,9 +78,9 @@ $heading-font: 'Montserrat', sans-serif;
 ```scss
 // Limpe a bagunça padrão dos navegadores
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 ```
 

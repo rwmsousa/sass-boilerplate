@@ -4,9 +4,9 @@ Bem-vindo ao Reino dos Temas na pasta "themes"! Aqui, você pode dar ao seu proj
 
 ## O que são esses reinos mágicos?
 
-- **\_admin.scss**: O reino real, onde o controle e a funcionalidade são a principal prioridade. 👑🛡️
+-   **\_admin.scss**: O reino real, onde o controle e a funcionalidade são a principal prioridade. 👑🛡️
 
-- **\_default.scss**: O reino acolhedor, onde a simplicidade e a beleza são os guardiões da estética. 🏡🌺
+-   **\_default.scss**: O reino acolhedor, onde a simplicidade e a beleza são os guardiões da estética. 🏡🌺
 
 ## Como Usar Esses Feitiços?
 
@@ -17,8 +17,8 @@ Personalize esses reinos mágicos para dar uma atmosfera única ao seu projeto!
 ```scss
 // Personalize o reino real com toques de majestade
 .admin-theme {
-  $primary-color: #3498db; // Defina uma cor real
-  $font-family: 'Poppins', sans-serif; // Escolha uma fonte real
+    $primary-color: #3498db; // Defina uma cor real
+    $font-family: 'Poppins', sans-serif; // Escolha uma fonte real
 }
 ```
 
@@ -27,8 +27,8 @@ Personalize esses reinos mágicos para dar uma atmosfera única ao seu projeto!
 ```scss
 // Transforme seu reino acolhedor com simplicidade e beleza
 .default-theme {
-  $primary-color: #2ecc71; // Defina uma cor acolhedora
-  $font-family: 'Roboto', sans-serif; // Escolha uma fonte amigável
+    $primary-color: #2ecc71; // Defina uma cor acolhedora
+    $font-family: 'Roboto', sans-serif; // Escolha uma fonte amigável
 }
 ```
 

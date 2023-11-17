@@ -4,7 +4,7 @@ Bem-vindo à Feira Mágica na pasta "vendors"! Aqui é onde você encontra as jo
 
 ## O que são esses tesouros mágicos?
 
-- **bootstrap.scss**: A gema brilhante do mundo do CSS, o Bootstrap! Uma biblioteca poderosa que acelera a criação de interfaces encantadoras. 🌐🔧
+-   **bootstrap.scss**: A gema brilhante do mundo do CSS, o Bootstrap! Uma biblioteca poderosa que acelera a criação de interfaces encantadoras. 🌐🔧
 
 ## Como Usar Esses Tesouros?
 
@@ -21,9 +21,9 @@ Integre esses tesouros mágicos em seu projeto para acelerar o desenvolvimento e
 
 // Exemplo de customização de um componente específico (botão, por exemplo)
 .custom-btn {
-  @include button-variant($primary); // Usa a cor primária definida acima
-  // Adiciona estilos adicionais específicos do seu projeto
-  font-weight: bold;
+    @include button-variant($primary); // Usa a cor primária definida acima
+    // Adiciona estilos adicionais específicos do seu projeto
+    font-weight: bold;
 }
 ```
 

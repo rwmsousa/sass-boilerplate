@@ -2,7 +2,7 @@
 
 ## Introdução
 
-Este projeto utiliza [Sass](https://sass-guidelin.es/), um pré-processador CSS que permite o uso de variáveis, aninhamento, mixins, herança e outras características interessantes que tornam a escrita CSS mais poderosa e flexível. 
+Este projeto utiliza [Sass](https://sass-guidelin.es/), um pré-processador CSS que permite o uso de variáveis, aninhamento, mixins, herança e outras características interessantes que tornam a escrita CSS mais poderosa e flexível.
 
 O projeto segue a arquitetura 7-1 do Sass, que é uma estrutura para organizar os arquivos Sass em sete pastas e um arquivo principal. Esta estrutura ajuda a manter o código organizado e facilita a manutenção do projeto.
 
@@ -14,11 +14,11 @@ Disponibilizar uma opção de arquitetura com Sass e aplicação prática no Nex
 
 ## Pré-requisitos
 
-- Node.js
-- npm
-- ReactJS
-- NextJS
-- Typescript
+-   Node.js
+-   npm
+-   ReactJS
+-   NextJS
+-   Typescript
 
 ## Instalação
 
@@ -43,6 +43,7 @@ npm run build
 ```bash
 npm run dev
 ```
+
 Acesse: http://localhost:3000
 
 ## Documentação
@@ -64,6 +65,7 @@ Para mais informações sobre os diferentes aspectos do projeto, consulte os seg
 [Vendors](https://github.com/rwmsousa/sass-boilerplate/blob/master/stylesheets/vendors/README.md)
 
 ## Contribuição
+
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
 Contribuições são sempre bem-vindas! Se você tem uma melhoria ou correção, sinta-se à vontade para fazer um fork do repositório e enviar um pull request. Se você tem alguma dúvida ou sugestão, pode abrir uma issue.
