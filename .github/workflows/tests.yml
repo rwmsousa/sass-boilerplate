@@ -2,9 +2,9 @@ name: Executar testes Jest
 
 on:
   push:
-    branches: [ main ]
+    branches: master
   pull_request:
-    branches: [ main ]
+    branches: ${GITHUB_HEAD_REF}
 
 jobs:
   test:
