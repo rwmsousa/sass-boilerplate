@@ -20,7 +20,12 @@ jobs:
         node-version: 18
 
     - name: Instalar dependências
-      run: npm ci
+      run: 
+        npm ci
+        console.log("Instalando dependências")
 
     - name: Executar testes
-      run: npm test
+      run: 
+        console.log("Executando testes")
+        npm run test
+        
