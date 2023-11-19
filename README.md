@@ -10,10 +10,26 @@ Após a instalação, você terá a opção de visualizar vários componentes em
 
 Disponibilizar uma opção de arquitetura com Sass e aplicação prática no NextJS, para desenvolvedores da comunidade.
 
+## Features
+- Arquitetura do [NextJS](https://nextjs.org/) estabelecida
+- Arquitetura 7-1 [Sass](https://sass-guidelin.es/) estabelecida
+- Exemplos de componentes
+- Exemplos de estilização global de tags e componentes com Sass
+- Configuração do [Eslint](https://eslint.org/)
+- Configuração do [Prettier](https://prettier.io/)
+- Configuração do [Jest](https://jestjs.io/pt-BR/) e Coverage
+- Configuração do [Husky](https://typicode.github.io/husky/)
+- Configuração do [Commitlint](https://commitlint.js.org/#/)
+- Pipeline pre-commit com Prettier e Eslint
+- Pipeline commit-msg com Commitlint
+- Pipeline pre-push com build e testes unitários
+- CI/CD com workflow no [Github Actions](https://github.com/features/actions) com check linter, check prettier e testes unitários
+- Versionamento automatizado [semantic-release](https://semantic-release.gitbook.io/) - a desenvolver
+
 ## Pré-requisitos
 
--   Node.js
--   npm
+-   [NodeJS](https://nodejs.org/en)
+-   [npm](https://www.npmjs.com/)
 
 ## Instalação
 
