@@ -3,41 +3,37 @@
 // Importar variáveis, funções e mixins
 // @import '../abstracts/variables';
 // @import '../abstracts/functions';
-@import '../abstracts/_mixins';
+// @import '../abstracts/_mixins';
 
 // Importar estilos base
-@import '../base/_breakpoints';
-@import '../base/_colors';
-@import '../base/_effects';
-@import '../base/_fonts';
-@import '../base/_helpers';
 @import '../base/_reset';
-@import '../base/_spacings';
-@import '../base/_zindex';
+@import '../base/_colors';
+@import '../base/_fonts';
+// @import '../base/_breakpoints';
+// @import '../base/_effects';
+// @import '../base/_helpers';
+// @import '../base/_spacings';
+// @import '../base/_zindex';
 
 // Importar estilos de componentes
 @import '../components/_button';
-@import '../components/_carousel';
-@import '../components/_cover';
-@import '../components/_dropdown';
-@import '../components/_form';
+// @import '../components/_carousel';
+// @import '../components/_cover';
+// @import '../components/_dropdown';
+// @import '../components/_form';
 
 // Importar estilos de layout
-@import '../layout/_footer';
-@import '../layout/_grid';
-@import '../layout/_header';
-@import '../layout/_sidebar';
+// @import '../layout/_footer';
+// @import '../layout/_grid';
+// @import '../layout/_header';
+// @import '../layout/_sidebar';
 
 // Importar estilos de páginas
-@import '../pages/_home';
-@import '../pages/_about';
-@import '../pages/_contact';
-@import '../pages/_slug';
+// @import '../pages/_home';
+// @import '../pages/_about';
+// @import '../pages/_contact';
+// @import '../pages/_slug';
 
 // Estilos do tema
 // (pode incluir substituição de variáveis e ajustes específicos do tema)
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f0f0f0;
-    color: #333;
-}
+
