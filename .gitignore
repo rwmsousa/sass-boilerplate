@@ -1,5 +1,8 @@
 package-lock.json
-node_modules
+node_modules/
 .next
+/coverage/
 .env
-**/coverage
+.eslintcache
+*.log
+*.conf
