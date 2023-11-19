@@ -1,77 +1,68 @@
-/* Tipografia */
-$font-title: 'Roboto', serif;
-$fonte-sans-serif: 'Roboto', sans-serif;
-$fonte-serif: 'Playfair Display', serif;
-$tamanho-base-fonte: 1rem; // 16px
-$line-height: 1.6;
-$heading-font-weight: bold;
-/* ... outras variáveis de tipografia */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
 
-/* Aplicando as fontes ao corpo da página e aos títulos */
-body {
-    font-family: $fonte-sans-serif;
-    line-height: 1.5;
-    background-color: $cor-fundo;
-}
+// Tipografia
+$font-default: 'Nanum Gothic', sans-serif;
 
-h1,
+H1,
 h2,
 h3,
 h4,
 h5,
-h6 {
-    font-family: $font-title;
-    font-weight: bold;
+h6,
+p,
+a {
+    line-height: 1.6;
 }
 
-/* Estilização de fontes específicas */
+h1 {
+    font-family: $font-default;
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+h2 {
+    font-size: 1.25rem; // 20px
+    font-family: $font-default;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 1.125rem; // 18px
+    font-family: $font-default;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 1rem; // 16px
+    font-family: $font-default;
+    font-weight: 400;
+}
+
+h5 {
+    font-size: 0.875rem; // 14px
+    font-family: $font-default;
+    font-weight: 400;
+}
+
+h6 {
+    font-size: 0.75rem; // 12px
+    font-family: $font-default;
+    font-weight: 400;
+}
+
 p {
     font-size: 1rem; // 16px
-    line-height: 1.5;
+    font-family: $font-default;
+    font-weight: 400;
 }
 
 a {
     color: $cor-link;
     text-decoration: none;
+    font-family: $font-default;
+    font-weight: 700;
 
     &:hover {
         text-decoration: underline;
     }
-}
-
-h1 {
-    font-size: 2rem; // 32px
-    color: $cor-titulo;
-}
-
-h2 {
-    font-size: 1.75rem; // 28px
-    color: $cor-titulo;
-}
-
-h3 {
-    font-size: 1.5rem; // 24px
-    color: $cor-texto;
-}
-
-h4 {
-    font-size: 1.25rem; // 20px
-    color: $cor-texto;
-}
-
-h5 {
-    font-size: 1.125rem; // 18px
-    color: $cor-texto;
-}
-
-h6 {
-    font-size: 1rem; // 16px
-    color: $cor-texto;
-}
-
-ul,
-ol {
-    margin: 0;
-    padding: 0;
-    list-style: none;
 }

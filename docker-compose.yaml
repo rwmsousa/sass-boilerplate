@@ -1,0 +1,17 @@
+# docker-compose.yml
+
+version: '3.7'
+
+services:
+  front:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: sass-boilerplate
+    image: sass-boilerplate
+    restart: always
+    command: npm run dev
+    volumes:
+      - ./:/sass-boilerplate
+    ports:
+      - 3000:3000

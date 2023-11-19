@@ -1,7 +1,9 @@
 FROM node:18-alpine
+RUN mkdir -p /home/sass-boilerplate
+COPY . ./sass-boilerplate
+
 WORKDIR /sass-boilerplate
-COPY package*.json ./
+
 RUN npm install
-COPY . .
-EXPOSE 3000
-CMD npm run dev
+# EXPOSE 3000
+CMD ["npm", "run", "dev"]
