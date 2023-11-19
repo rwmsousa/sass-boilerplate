@@ -14,9 +14,6 @@ Disponibilizar uma opção de arquitetura com Sass e aplicação prática no Nex
 
 -   Node.js
 -   npm
--   ReactJS
--   NextJS
--   Typescript
 
 ## Instalação
 
