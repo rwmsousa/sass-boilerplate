@@ -1,6 +1,7 @@
 // pages/index.tsx
 import React from 'react';
 import Button from '../components/Button';
+import Button2 from '../components/Button2';
 
 const Home: React.FC = () => {
     const handleClick = (msg: string) => {
@@ -16,6 +17,7 @@ const Home: React.FC = () => {
                 text="Botão primário!"
                 onClick={() => handleClick('Botão primário!')}
             />
+            <Button2 />
         </div>
     );
 };
