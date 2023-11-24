@@ -6,7 +6,9 @@
 /* Definição de reset para elementos de bloco */
 
 body {
-    background-color: $cor-body;
+    background-color: $color-body;
+    display: flex;
+    justify-content: center;
 }
 
 body,

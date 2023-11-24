@@ -8,21 +8,19 @@ const Home: React.FC = () => {
     };
 
     return (
-        <div>
+        <div className='section' style={ { flexDirection: 'column' } }>
             <h1>Boilerplate SASS 7-1</h1>
-            <h2>Texto H2</h2>
-            <h3>Texto H3</h3>
-            <h4>Texto H4</h4>
-            <h5>Texto H5</h5>
-            <h6>Texto H6</h6>
-            <p>Parágrafo</p>
-            <p>
-                <a href="#">Link</a>
-            </p>
+            <h2>Text H2</h2>
+            <h3>Text H3</h3>
+            <h4>Text H4</h4>
+            <h5>Text H5</h5>
+            <h6>Text H6</h6>
+            <p>Paragraph</p>
+            <a href="#">Link</a>
             <Button
-                type="primary"
-                text="Botão primário!"
-                onClick={() => handleClick('Botão primário!')}
+                style="primary"
+                text="Button primary"
+                onClick={ () => handleClick('Botão primário!') }
             />
         </div>
     );

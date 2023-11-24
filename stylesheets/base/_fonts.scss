@@ -1,7 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
-
 // Tipografia
-$font-default: 'Nanum Gothic', sans-serif;
+// Thin 100
+// Thin 100
+// Italic Light 300
+// Light 300 Italic
+// Regular 400
+// Regular 400 Italic
+// Medium 500
+// Medium 500 Italic
+// Bold 700
+// Bold 700 Italic
+// Black 900
+// Black 900 Italic
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+$font-default: 'Roboto', sans-serif;
 
 H1,
 h2,
@@ -12,55 +25,52 @@ h6,
 p,
 a {
     line-height: 1.6;
+    color: $color-text;
+    font-family: $font-default;
+    word-spacing: 0.3rem;
 }
 
 h1 {
-    font-family: $font-default;
-    font-weight: 800;
+    font-weight: 700;
     font-size: 1.5rem;
+    width: 100%;
 }
 
 h2 {
     font-size: 1.25rem; // 20px
-    font-family: $font-default;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 h3 {
     font-size: 1.125rem; // 18px
-    font-family: $font-default;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 h4 {
     font-size: 1rem; // 16px
-    font-family: $font-default;
     font-weight: 400;
 }
 
 h5 {
     font-size: 0.875rem; // 14px
-    font-family: $font-default;
     font-weight: 400;
 }
 
 h6 {
     font-size: 0.75rem; // 12px
-    font-family: $font-default;
     font-weight: 400;
 }
 
 p {
     font-size: 1rem; // 16px
-    font-family: $font-default;
     font-weight: 400;
+    white-space: pre-wrap;
 }
 
 a {
-    color: $cor-link;
+    color: $color-link;
     text-decoration: none;
-    font-family: $font-default;
-    font-weight: 700;
+    font-weight: 500;
 
     &:hover {
         text-decoration: underline;
