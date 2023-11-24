@@ -14,16 +14,16 @@
 }
 
 .button.primary {
-    background-color: $cor-botao;
+    background-color: $color-button;
     color: #fff;
 }
 
 .button.secondary {
-    background-color: $cor-destaque;
-    color: $cor-texto;
+    background-color: $color-highlight;
+    color: rgba(0, 0, 0, 0.692);
 }
 
 .button:hover {
     opacity: 0.8;
-    background-color: darken($cor-botao, 15%);
+    background-color: darken($color-button, 15%);
 }

@@ -17,14 +17,14 @@
 @mixin botao-estilizado() {
     display: inline-block;
     padding: 0.625rem 1.25rem; // 10px 20px
-    background-color: $cor-destaque;
-    color: $cor-body;
+    background-color: $color-highlight;
+    color: $color-body;
     text-decoration: none;
     border-radius: 0.25rem; // 4px
     transition: background-color 0.3s ease;
 
     &:hover {
-        background-color: darken($cor-destaque, 10%);
+        background-color: darken($color-highlight, 10%);
     }
 }
 
@@ -41,6 +41,6 @@
 // Mixin para títulos
 @mixin titulo-estilizado() {
     font-size: 1.5rem; // 24px
-    color: $cor-titulo;
+    color: $color-title;
     font-weight: bold;
 }

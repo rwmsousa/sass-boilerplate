@@ -1,0 +1,11 @@
+.section{
+  width: fit-content;
+  height: fit-content;
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid $color-highlight;
+  gap: 1rem;
+}
