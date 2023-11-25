@@ -10,15 +10,13 @@ Após a instalação, você terá a opção de visualizar vários componentes em
 
 ## Objetivo do Projeto
 
-Disponibilizar uma opção de arquitetura com Sass e aplicação prática no NextJS, para desenvolvedores da comunidade.
+Disponibilizar uma opção de arquitetura com Sass e aplicação prática no NextJS, para desenvolvedores da comunidade. Veja a [Demo](https://sass-boilerplate.vercel.app/).
 
 ## Pré-requisitos
 
 -   Node.js
 -   npm
--   ReactJS
--   NextJS
--   Typescript
+-   Docker
 
 ## Instalação
 
