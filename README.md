@@ -1,6 +1,5 @@
 # Boilerplate Sass
 
-## Introdução
 
 Este projeto utiliza [Sass](https://sass-guidelin.es/), um pré-processador CSS que permite o uso de variáveis, aninhamento, mixins, herança e outras características interessantes que tornam a escrita CSS mais poderosa e flexível.
 
