@@ -49,13 +49,13 @@ npm install
 Para construir o projeto, execute o seguinte comando:
 
 ```bash
-npm run build
+make build
 ```
 
 ## Run
 
 ```bash
-npm run dev
+make run
 ```
 
 Acesse: http://localhost:3000
