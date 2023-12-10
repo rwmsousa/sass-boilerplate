@@ -1,51 +1,90 @@
 @import "./colors";
+@import "../base/zindex";
 
 /* Reset CSS */
 /* Estilos zerados para uma base consistente em diferentes navegadores */
 
 /* Definição de reset para elementos de bloco */
+html {
+    padding: 0;
+}
 
 body {
     background-color: $color-body;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    z-index: $z-index-body;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
 }
 
-body,
-div,
-section,
 article,
 header,
 footer,
 nav,
 aside,
-main {
+main,
+nav,
+ul,
+ol,
+li,
+a {
     margin: 0;
     padding: 0;
     border: 0;
-    vertical-align: baseline;
+    display: flex;
 }
 
-/* Zerar listas */
+nav,
+ol,
+ul,
+li {
+    list-style: none;
+    height: fit-content;
+}
+
+nav,
 ul,
 ol {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+    padding: 0.5rem 1rem;
 }
 
-/* Zerar estilos padrão de links */
+ul,
+ol {
+    width: 100%;
+    gap: 1rem;
+}
+
+li {
+    width: fit-content;
+    gap: 1rem;
+}
+
 a {
+    align-items: center;
+    color: $color-text;
     text-decoration: none;
+    font-weight: 500;
+    gap: 0.3rem;
+    width: fit-content;
+    height: fit-content;
+
+    &:hover {
+        text-decoration: underline;
+        color: $color-link;
+    }
 }
 
-/* Zerar configurações padrão de títulos */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    margin: 0;
-    padding: 0;
-}
+  figure {
+      margin: 0;
+      padding: 0;
+      margin-block-start: 0;
+      margin-block-end: 0;
+      margin-inline-start: 0;
+      margin-inline-end: 0;
+
+      figcaption {
+          display: none;
+      }
+  }

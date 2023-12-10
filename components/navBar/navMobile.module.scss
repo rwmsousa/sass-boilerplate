@@ -1,0 +1,41 @@
+@import '../../stylesheets/base/colors';
+
+.navMobile {
+  flex-direction: column;
+  align-items: end;
+  padding-right: 0;
+
+  .hamburger {
+    z-index: 100;
+    color: $color-button;
+  }
+
+  .hamOpen {
+    color: $color-body;
+  }
+
+  .navMobileMenu {
+    background-color: $color-button;
+    width: fit-content;
+    min-width: 10rem;
+    position: absolute;
+    margin-top: -0.4rem;
+    padding-top: 3rem;
+    height: calc(100vh - 3.5rem);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    margin-right: 0.2rem;
+
+    ul {
+      flex-direction: column;
+      margin-top: 1rem;
+
+      a {
+        display: flex;
+        flex-direction: row-reverse;
+        width: 100%;
+        padding-left: 1rem;
+        color: $color-body;
+      }
+    }
+  }
+}
