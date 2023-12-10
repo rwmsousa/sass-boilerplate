@@ -1,10 +1,8 @@
 // pages/index.tsx
 import React from 'react';
 import Button from '../components/button';
-import NavDesktop from '../components/navBurger/navDesktop';
-import NavMobile from '../components/navBurger/navMobile';
 
-const Home: React.FC = () => {
+export default function Home(): React.JSX.Element {
 
     const handleClick = (event) => {
         event.preventDefault();
@@ -12,8 +10,6 @@ const Home: React.FC = () => {
     };
     return (
         <>
-                {/* <NavDesktop /> */}
-                <NavMobile />
             <div className='section' style={ { flexDirection: 'column' } }>
                 <h1>Boilerplate SASS 7-1</h1>
                 <h2>Text H2</h2>
@@ -33,4 +29,3 @@ const Home: React.FC = () => {
     );
 };
 
-export default Home;
