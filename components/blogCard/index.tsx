@@ -1,8 +1,8 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-import { countMinutes } from '../../utils/minutesToRead';
-import { convertDate } from '../../utils/convertDate';
+import  countMinutes from '../../utils/minutesToRead';
+import  convertDate  from '../../utils/convertDate';
 
 import style from './cardBlog.module.scss';
 
