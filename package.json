@@ -15,7 +15,7 @@
     "lint-check": "eslint . --ext .js,.jsx,.ts,.tsx --cache",
     "prettier": "prettier . --write --cache '**/*.{js,jsx,json,ts,tsx,yml,yaml}'",
     "prettier-check": "prettier . --check '**/*.{js,jsx,json,ts,tsx,yml,yaml}'",
-    "precommit": "npm run prettier && npm run lint && git add .",
+    "precommit": "npm run prettier && npm run lint",
     "prepush": "npm run build && npm run test",
     "prepare": "husky install",
     "test": "jest"
@@ -36,9 +36,13 @@
   },
   "homepage": "https://github.com/rwmsousa/sass-boilerplate#readme",
   "dependencies": {
+    "framer-motion": "^10.16.5",
+    "hamburger-react": "^2.5.0",
     "next": "^14.0.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.12.0",
+    "react-use": "^17.4.0",
     "sass": "^1.69.5"
   },
   "devDependencies": {
