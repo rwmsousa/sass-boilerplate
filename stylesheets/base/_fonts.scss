@@ -23,17 +23,21 @@ h4,
 h5,
 h6,
 p,
+ul,
+ol,
+li,
 a {
     line-height: 1.6;
     color: $color-text;
     font-family: $font-default;
     word-spacing: 0.3rem;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
     font-weight: 700;
     font-size: 1.5rem;
-    width: 100%;
 }
 
 h2 {
@@ -65,14 +69,4 @@ p {
     font-size: 1rem; // 16px
     font-weight: 400;
     white-space: pre-wrap;
-}
-
-a {
-    color: $color-link;
-    text-decoration: none;
-    font-weight: 500;
-
-    &:hover {
-        text-decoration: underline;
-    }
 }
