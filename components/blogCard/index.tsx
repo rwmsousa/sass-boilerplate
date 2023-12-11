@@ -1,13 +1,16 @@
 import Image from 'next/image';
 import Link from 'next/link';
-
-import  countMinutes from '../../utils/minutesToRead';
-import  convertDate  from '../../utils/convertDate';
+import { Post } from '../../types';
+import countMinutes from '../../utils/minutesToRead';
+import convertDate from '../../utils/convertDate';
 
 import style from './cardBlog.module.scss';
 
-export default function CardBlog({ post }) {
-  return (
+interface CardBlogProps {
+  post: Post;
+}
+
+const CardBlog: React.FC<CardBlogProps> = ({ post }) => (
     <div
       className={ style.postItem }
       tabIndex={ 0 }
@@ -20,14 +23,12 @@ export default function CardBlog({ post }) {
           <Image
             alt={ post.title }
             src={ post.images.thumbnail.src || '/img/image_icon.png' }
-            width={ post.images.thumbnail.width }
-            height={ post.images.thumbnail.height }
-            objectFit='cover'
-            layout='responsive'
+            width={ 225 }
+            height={ 225 }
             quality={ 100 }
             priority
           />
-          <figcaption>{`Imagem: ${ post.title}`}
+          <figcaption>{ `Imagem: ${ post.title }` }
           </figcaption>
         </figure>
       </Link>
@@ -38,8 +39,8 @@ export default function CardBlog({ post }) {
         <div className={ style.text }>
           <div className={ style.category }>
             { post.categories.map((category) => (
-                <span key={ category.id }>{ category.name }</span>
-              )) }
+              <span key={ category.id }>{ category.name }</span>
+            )) }
             <span>{ convertDate(post.createdAt) }</span>
 
             <span>{ countMinutes(post.content) }</span>
@@ -50,4 +51,5 @@ export default function CardBlog({ post }) {
       </Link>
     </div>
   );
-}
+
+export default CardBlog;

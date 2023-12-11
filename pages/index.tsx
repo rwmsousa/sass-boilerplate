@@ -1,24 +1,30 @@
 // pages/index.tsx
 import React from 'react';
 import Button from '../components/button';
-import articlesExample  from '../static/articleExample';
 import CardBlog from '../components/blogCard';
+import { Post } from '../types';
+import  getArticles  from '../providers/api';
 
-export default function Home({ articles }): React.JSX.Element {
+interface HomeProps {
+    posts: Post[];
+}
 
-    const handleClick = (event) => {
+export default function Home({ posts }: HomeProps){
+
+    const handleClick = (event: React.MouseEvent) => {
         event.preventDefault();
-        console.log(event.target.innerText);
+
     };
+
     return (
         <>
             <Button
-                style="primary"
+                className="primary"
                 text="primary button"
-                onClick={ () => handleClick('primary button') }
+                onClick={ (event) => handleClick(event) }
             />
             <div className='section'>
-                { articles && articles.map((article) => CardBlog({ post: article }))
+                { posts && posts.map((article: Post) => <CardBlog key={ article.id } post={article}/>)
                 }
             </div>
             <div className='section' style={ { flexDirection: 'column' } }>
@@ -36,10 +42,10 @@ export default function Home({ articles }): React.JSX.Element {
 };
 
 export const getStaticProps = async () => {
-    const articles = articlesExample;
+    const posts = await getArticles();
 
     return {
-        props: { articles },
+        props: { posts },
     };
 };
 
