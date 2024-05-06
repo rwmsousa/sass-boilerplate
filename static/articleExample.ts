@@ -14,32 +14,32 @@ const articlesExample:Posts = [ {
     },
     small: {
       alt: 'Where can I get some?',
-      src: '/img/whippet.png',
+      src: '/img/logo.webp',
       width: 200,
       height: 300,
     },
     medium: {
       alt: 'Where can I get some?',
-      src: '/img/whippet.png',
+      src: '/img/logo.webp',
       width: 350,
       height: 350,
     },
     large: {
       alt: 'Where can I get some?',
-      src: '/img/whippet.png',
+      src: '/img/logo.webp',
       width: 1024,
       height: 1024,
     },
     instagram: {
       stories: {
         alt: 'Where can I get some?',
-        src: '/img/whippet.png',
+        src: '/img/logo.webp',
         width: 1080,
         height: 1920,
       },
       feed: {
         alt: 'Where can I get some?',
-        src: '/img/whippet.png',
+        src: '/img/logo.webp',
         width: 1080,
         height: 1080,
       },
@@ -47,13 +47,13 @@ const articlesExample:Posts = [ {
     facebook: {
       stories: {
         alt: 'Where can I get some?',
-        src: '/img/whippet.png',
+        src: '/img/logo.webp',
         width: 1080,
         height: 1920,
       },
       feed: {
         alt: 'Where can I get some?',
-        src: '/img/whippet.png',
+        src: '/img/logo.webp',
         width: 1080,
         height: 1080,
       },
@@ -61,13 +61,13 @@ const articlesExample:Posts = [ {
     tiktok: {
       stories: {
         alt: 'Where can I get some?',
-        src: '/img/whippet.png',
+        src: '/img/logo.webp',
         width: 1080,
         height: 1920,
       },
       feed: {
         alt: 'Where can I get some?',
-        src: '/img/whippet.png',
+        src: '/img/logo.webp',
         width: 1080,
         height: 1080,
       },
@@ -75,13 +75,13 @@ const articlesExample:Posts = [ {
     twitter: {
       stories: {
         alt: 'Where can I get some?',
-        src: '/img/whippet.png',
+        src: '/img/logo.webp',
         width: 1080,
         height: 1920,
       },
       feed: {
         alt: 'Where can I get some?',
-        src: '/img/whippet.png',
+        src: '/img/logo.webp',
         width: 1080,
         height: 1080,
       },
